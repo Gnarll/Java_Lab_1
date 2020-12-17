@@ -1,6 +1,6 @@
 package bsu.rfe.java.group9.Fedorovich.varB1;
 
-public abstract class Food 
+public abstract class Food implements Nutritious, Consumable
 {
     String name = null;
    // double calories = 0.0;
